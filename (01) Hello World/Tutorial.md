@@ -3,6 +3,7 @@ Welcome to the first Android HackNight project! This project will show you how t
 
 # Table of Contents
 1. [How are Android apps made?](#how-are-android-apps-made)
+2. [Installing Android Studio](#installing-android-studio)
 
 # How are Android apps made?
 
@@ -25,3 +26,8 @@ What do I mean by *compile code*? Like I said earlier, you write Java code when 
 2. The compiled Java code is then partially reformatted into an Android Application Package (APK) with a `.apk` file extension
 
 Gradle handles all of that for you. Now you can take that `.apk` file, put it on a device or emulator, and run it to install your application. Actually, when using Android Studio, all you have to do is hit `Run` and your application is automatically installed and opened on a specified device or emulator.
+
+# Installing Android Studio
+Most Android developers use Android Studio. Installing Android Studio for Mac and Windows is a breeze. However be warned: it can be sort of annoying on debian Linux and impossible (I think) for other Linux distributions. 
+
+Follow the instructions to download and install Android Studio from the [Android Developer Website](https://developer.android.com/studio/)
