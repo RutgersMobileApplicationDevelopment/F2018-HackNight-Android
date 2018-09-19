@@ -36,11 +36,16 @@ Almost all Android developers use Android Studio to make applications. Installin
 Follow the instructions to download and install Android Studio from the [Android Developer Website](https://developer.android.com/studio/)
 
 # Setting up the Project
-1. Open Android Studio and hit "Start a new Android Studio project" ![Android Studio Start Screen](https://snag.gy/aBuRGd.jpg)
-2. A window should have popped up. Change the field "Application Name" to be "Hello World" (this is optional). "Company domain" doesn't matter right now, you can change it or leave it as whatever the default is for you (in my case, the default is `com.example`). Change "Project location" to be wherever you want the project folder to be created. Don't change "Package Name". Also make sure that "Include Kotlin Support" and "Include C++ Support" are NOT checked. In short, make it look like this and click "Next" ![Configure New Project Screen](https://snag.gy/0XOSAr.jpg)
-3. On the next screen, make sure that only the "Phone and Tablet" checkbox is checked. Click the dropdown under that checkbox and choose "API 21: Android 5.0 (Lollipop)". Make sure that "Include Android Instant App Support" is NOT checked. Click "Next" ![SDK Configuration Page](https://snag.gy/8xZqYo.jpg)
-4. On the next screen, choose "Empty Activity" and press "Next" ![Default Activity Selection Screen](https://snag.gy/QABbpL.jpg)
-5. On the next screen, you shouldn't have to change anything. Keep the defaults as long as they are the same as the picture below and click "Finish". ("Activity Name" should be set to "MainActivity", "Generate Layout File" should be checked, "Layout Name" should be "activity_main", and "Backwards Compatability (App Compat)" should be checked) ![Activity and Layout Naming Screen](https://snag.gy/3r7KJt.jpg)
+1. Open Android Studio and hit "Start a new Android Studio project"
+![Android Studio Start Screen](https://snag.gy/aBuRGd.jpg)
+2. A window should have popped up. Change the field "Application Name" to be "Hello World" (this is optional). "Company domain" doesn't matter right now, you can change it or leave it as whatever the default is for you (in my case, the default is `com.example`). Change "Project location" to be wherever you want the project folder to be created. Don't change "Package Name". Also make sure that "Include Kotlin Support" and "Include C++ Support" are NOT checked. In short, make it look like this and click "Next"
+![Configure New Project Screen](https://snag.gy/0XOSAr.jpg)
+3. On the next screen, make sure that only the "Phone and Tablet" checkbox is checked. Click the dropdown under that checkbox and choose "API 21: Android 5.0 (Lollipop)". Make sure that "Include Android Instant App Support" is NOT checked. Click "Next"
+![SDK Configuration Page](https://snag.gy/8xZqYo.jpg)
+4. On the next screen, choose "Empty Activity" and press "Next" 
+![Default Activity Selection Screen](https://snag.gy/QABbpL.jpg)
+5. On the next screen, you shouldn't have to change anything. Keep the defaults as long as they are the same as the picture below and click "Finish". ("Activity Name" should be set to "MainActivity", "Generate Layout File" should be checked, "Layout Name" should be "activity_main", and "Backwards Compatability (App Compat)" should be checked)
+![Activity and Layout Naming Screen](https://snag.gy/3r7KJt.jpg)
 
 Now Android Studio will generate a new project for you. It will take anywhere between 15 seconds to a few minutes depending on your computer.
 
@@ -51,7 +56,8 @@ At this point, the Hello World app is actually done. Sorry, I know it's a little
 
 ### Deploying to a Physical Device
 1. Plug an Android device into your computer
-2. Click `Run > Run 'app'` or click the `Run` button, making sure
+2. Click `Run > Run 'app'`. You can also click the green play button at the top right, just make sure that `app` is selected in the dropdown next to it like this screenshot: 
+![Run Configuration Screenshot](https://i.snag.gy/IcHx4o.jpg)
 3. Wait for ADB to start, then choose your device from the list
 
 Now Android Studio will compile your code into an APK and deploy it to your device. Your app will run on your device once it is done instlalling.
