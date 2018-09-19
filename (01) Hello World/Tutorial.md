@@ -44,7 +44,17 @@ Follow the instructions to download and install Android Studio from the [Android
 
 Now Android Studio will generate a new project for you. It will take anywhere between 15 seconds to a few minutes depending on your computer.
 
-Ok, you've just seen a whole bunch of stuff that we haven't talked about yet. What's an activity? What's an Android API level? What's AppCompat?. Dont' worry, we'll talk about all that in detail later. If you're impatient or you just don't like reading, feel free to reach out to an RUMAD Android mentor! :smiley:
+Ok, you've just seen a whole bunch of stuff that we haven't talked about yet. What's an activity? What's an Android API level? What's AppCompat?. Dont' worry, we'll talk about all that in detail in a later HackNight project. If you're impatient or you just don't like reading, feel free to reach out to an RUMAD Android mentor! :smiley:
 
 # Deploying to a Device
-At this point, the Hello World app is actually done. Sorry, I know it's a little anti-climactic. However, if we wanted to make changes (for example, making the app say "Hello, Humans") we wouldn't be able to do so very easily because of a recent bug in the Android Support Library. We'll get into that in the next section.
+At this point, the Hello World app is actually done. Sorry, I know it's a little anti-climactic. However, if we wanted to make changes (for example, making the app say "Hello, Humans") we wouldn't be able to do so very easily because of a recent bug in the Android Support Library versions rc02 and rc01. We'll get into that in the next section.
+
+### Deploying to a Physical Device
+1. Plug an Android device into your computer
+2. Click `Run > Run 'app'` or click the `Run` button, making sure
+3. Wait for ADB to start, then choose your device from the list
+
+Now Android Studio will compile your code into an APK and deploy it to your device. Your app will run on your device once it is done instlalling.
+
+### Deploying to an Emulated (Virtual) Device
+1. 
