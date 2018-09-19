@@ -42,3 +42,5 @@ Follow the instructions to download and install Android Studio from the [Android
 
 Now Android Studio will generate a new project for you. It will take anywhere between 15 seconds to a few minutes depending on your computer.
 
+Ok, you've just seen a whole bunch of stuff that we haven't talked about yet. What's an activity? What's an Android API level? What's AppCompat?. Dont' worry, we'll talk about all that in detail later. If you're impatient or you just don't like reading, feel free to reach out to an RUMAD Android mentor! :smiley:
+
