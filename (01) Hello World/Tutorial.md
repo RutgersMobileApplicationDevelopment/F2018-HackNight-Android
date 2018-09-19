@@ -4,6 +4,7 @@ Welcome to the first Android HackNight project! This project will show you how t
 # Table of Contents
 1. [How are Android apps made?](#how-are-android-apps-made)
 2. [Installing Android Studio](#installing-android-studio)
+3. [Setting up the Project](#setting-up-the-project)
 
 # How are Android apps made?
 
@@ -31,3 +32,13 @@ Gradle handles all of that for you. Now you can take that `.apk` file, put it on
 Most Android developers use Android Studio to make applications. Installing Android Studio for Mac and Windows is a breeze. However be warned: it can be sort of annoying on debian Linux and impossible (I think) for other Linux distributions. 
 
 Follow the instructions to download and install Android Studio from the [Android Developer Website](https://developer.android.com/studio/)
+
+# Setting up the Project
+1. Open Android Studio and hit "Start a new Android Studio project" ![Android Studio Start Screen](https://snag.gy/aBuRGd.jpg)
+2. A window should have popped up. Change the field "Application Name" to be "Hello World" (this is optional). "Company domain" doesn't matter right now, you can change it or leave it as whatever the default is for you (in my case, the default is `com.example`). Change "Project location" to be wherever you want the project folder to be created. Don't change "Package Name". Also make sure that "Include Kotlin Support" and "Include C++ Support" are NOT checked. In short, make it look like this and click "Next" ![Configure New Project Screen](https://snag.gy/0XOSAr.jpg)
+3. On the next screen, make sure that only the "Phone and Tablet" checkbox is checked. Click the dropdown under that checkbox and choose "API 21: Android 5.0 (Lollipop)". Make sure that "Include Android Instant App Support" is NOT checked. Click "Next" ![SDK Configuration Page](https://snag.gy/8xZqYo.jpg)
+4. On the next screen, choose "Empty Activity" and press "Next" ![Default Activity Selection Screen](https://snag.gy/QABbpL.jpg)
+5. On the next screen, you shouldn't have to change anything. Keep the defaults as long as they are the same as the picture below and click "Finish". ("Activity Name" should be set to "MainActivity", "Generate Layout File" should be checked, "Layout Name" should be "activity_main", and "Backwards Compatability (App Compat)" should be checked) ![Activity and Layout Naming Screen](https://snag.gy/3r7KJt.jpg)
+
+Now Android Studio will generate a new project for you. It will take anywhere between 15 seconds to a few minutes depending on your computer.
+
