@@ -5,7 +5,8 @@ Welcome to the first Android HackNight project! This project will show you how t
 1. [How are Android apps made?](#how-are-android-apps-made)
 2. [Installing Android Studio](#installing-android-studio)
 3. [Setting up the Project](#setting-up-the-project)
-4. [Making Sure It Works](#making-sure-it-works)
+4. [Deploying to a Device](#deploying-to-a-device)
+4. [Customization]()
 
 # How are Android apps made?
 
@@ -45,5 +46,5 @@ Now Android Studio will generate a new project for you. It will take anywhere be
 
 Ok, you've just seen a whole bunch of stuff that we haven't talked about yet. What's an activity? What's an Android API level? What's AppCompat?. Dont' worry, we'll talk about all that in detail later. If you're impatient or you just don't like reading, feel free to reach out to an RUMAD Android mentor! :smiley:
 
-# Making Sure It Works
-At this point, the Hello World app is actually done. Sorry, I know it's a little anti-climactic. However, if we wanted to make changes (for example, making the app say "Hello, Humans") we wouldn't be able to do so very easily because of a recent bug in the Android Support Library. 
+# Deploying to a Device
+At this point, the Hello World app is actually done. Sorry, I know it's a little anti-climactic. However, if we wanted to make changes (for example, making the app say "Hello, Humans") we wouldn't be able to do so very easily because of a recent bug in the Android Support Library. We'll get into that in the next section.
