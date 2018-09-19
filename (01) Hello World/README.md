@@ -56,11 +56,23 @@ At this point, the Hello World app is actually done. Sorry, I know it's a little
 
 ### Deploying to a Physical Device
 1. Plug an Android device into your computer
-2. Click `Run > Run 'app'`. You can also click the green play button at the top right, just make sure that `app` is selected in the dropdown next to it like this screenshot: 
+2. Click `Run > Run 'app'`. You can also click the green play button at the top right, just make sure that `app` is selected in the dropdown next to it like this screenshot:  
 ![Run Configuration Screenshot](https://i.snag.gy/IcHx4o.jpg)
 3. Wait for ADB to start, then choose your device from the list
 
 Now Android Studio will compile your code into an APK and deploy it to your device. Your app will run on your device once it is done instlalling.
 
 ### Deploying to an Emulated (Virtual) Device
-1. 
+To deploy to an emulated device, you first have to set one up. Follow these instructions to do that:
+1. Click `Tools > AVD Manager` to open up the Android Virtual Device Manager
+2. Click "Create Virtual Device"
+3. Choose any device you want that is in the "Phone" category. Here I chose "Pixel 2". Click "Next"
+![Device Selection Screen](https://snag.gy/x1zIqR.jpg)
+4. Click "Download" next to "API 28" and complete the download.
+![API Selection Screen](https://snag.gy/hgkIK8.jpg)
+5. Choose "API 28" and click "Next"
+6. On the next screen, click "Finish"
+
+Now go back and follow the instructions in [Deploying to a Physical Device](#deploying-to-a-physical-device), but in step 2 select the virtual device that you just set up.
+
+Your device should now show a screen that says "Hello, World!" in the middle. Congrats, you just made your first Android app!
