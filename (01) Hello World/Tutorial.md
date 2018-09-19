@@ -31,7 +31,7 @@ What do I mean by *compile code*? Like I said earlier, you write Java code when 
 Gradle handles all of that for you. Now you can take that `.apk` file, put it on a device or emulator, and run it to install your application. Actually, when using Android Studio, all you have to do is hit `Run` and your application is automatically installed and opened on a specified device or emulator.
 
 # Installing Android Studio
-Most Android developers use Android Studio to make applications. Installing Android Studio for Mac and Windows is a breeze. However be warned: it can be sort of annoying on debian Linux and impossible (I think) for other Linux distributions. 
+Almost all Android developers use Android Studio to make applications. Installing Android Studio for Mac and Windows is a breeze. However be warned: it can be sort of annoying on debian Linux and impossible (I think) for other Linux distributions. 
 
 Follow the instructions to download and install Android Studio from the [Android Developer Website](https://developer.android.com/studio/)
 
