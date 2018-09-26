@@ -52,6 +52,7 @@ To register a component, you will need to know the ID of the component. Then, us
 <ul>
   <li>Customize your XML components</li>
   <li>Connect XML components to your Java code</li>
+  <li>Learned about Anonymous Classes, Global variables, and 'Final'</li>
   <li>Use three different types of components (Button, TextView, EditText) and now can explore other ones</li>
 </ul>
 <br></br>
