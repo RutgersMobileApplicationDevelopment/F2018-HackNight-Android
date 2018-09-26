@@ -44,7 +44,7 @@ To register a component, you will need to know the ID of the component. Then, us
 </ul>
 <br></br>
 <b>Final Code:</b>
-<img src="https://snag.gy/jQM1OE.jpg" width="800"></img>
+<img src="https://snag.gy/oW1EMv.jpg" width="800"></img>
 <br></br>
 
 <h2>Takeaways</h2>
